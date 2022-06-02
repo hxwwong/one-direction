@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+argparse = "*"
+python-dotenv = "*"
+configparser = "*"
+requests = "*"
+bs4 = "*"
+lxml = "*"
+pytrends = "*"
+pandas = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
